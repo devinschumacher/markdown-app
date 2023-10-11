@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=serpdown
+Comment=Next generation markdown editor
+Exec=serpdown %F
+Terminal=false
+Type=Application
+Icon=serpdown
+Categories=Office;TextEditor;Utility;
+MimeType=text/markdown;
+Keywords=serpdown;
+StartupWMClass=serpdown
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=serpdown --new-window %F
+Icon=serpdown
